@@ -1,7 +1,7 @@
 """
 Main application and routing for TwitOff
 """
-
+import os
 from decouple import config
 from flask import Flask, render_template, request
 from .models import DB, User
@@ -14,7 +14,7 @@ def create_app():
      Flask Application"""
 
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = config('DATABASE_URL')
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['ENV'] = config('ENV')
 
