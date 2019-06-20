@@ -23,10 +23,10 @@
       {% block content %}
       <div>
           <h1>{{ title }}</h1>
-          <form action="/compare" method="'post">
+          <form action="/predict" method="post">
               <select name="user1">
               {% for user in users %}
-              <option value="{{ user.name }}">{{ user.name}}</option>
+              <option value="{{ user.name }}">{{ user.name }}</option>
               {% endfor %}
               </select>
               <select name="user2">
@@ -38,7 +38,7 @@
               <input type="submit" value="Compare Users">
           </form>
           <h3>Recent comparisons:</h3>
-          {% for comparison in comparisons %}
+          {% for predict in compariso %}
           <span class="stack">{{ comparison }}</span>
           {% endfor %}
       </div>

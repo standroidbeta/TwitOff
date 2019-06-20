@@ -40,4 +40,17 @@ def create_app():
         return render_template('user.html', title=name,
                                tweets=tweets, message=message)
 
+    @app.route('/predict', methods=['POST'])
+    def predict():
+        user1_name = request.values['user1']
+        user2_name = request.values['user2']
+        tweet_text = request.values['tweet_text']
+        if user1_name == user2_name:
+            return 'Error'
+        else:
+            prediction = predict_user(user1_name, user2_name, tweet_text)
+            return user1_name if prediction else user2_name
+
+            # tweets = User.query.filter(User.name == name).one().tweets
+
     return app
