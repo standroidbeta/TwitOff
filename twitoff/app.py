@@ -42,7 +42,7 @@ def create_app():
 
     @app.route('/predict', methods=['POST'])
     def predict():
-        user1_name = request.values['user1']
+        user1_name, user2_name = request.values['user1']
         user2_name = request.values['user2']
         tweet_text = request.values['tweet_text']
         if user1_name == user2_name:
