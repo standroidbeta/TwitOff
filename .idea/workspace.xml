@@ -94,11 +94,7 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitoff/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -225,18 +221,17 @@
       <workItem from="1560874022221" duration="2965000" />
       <workItem from="1560876998047" duration="835000" />
       <workItem from="1560886666111" duration="28664000" />
-      <workItem from="1560979400688" duration="13758000" />
+      <workItem from="1560979400688" duration="14371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58682000" />
+    <option name="totallyTimeSpent" value="59295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="961" y="0" width="959" height="1079" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.9671413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.9671413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,7 +245,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50164294" side_tool="true" weight="0.3940678" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49835706" visible="true" weight="0.537155" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49835706" visible="true" weight="0.537155" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,11 +347,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitoff/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
