@@ -53,7 +53,7 @@ def create_app():
                 tweet_text, user1_name if prediction else user2_name, user2_name,
                 user2_name if prediction else user1_name)
 
-        return render_template(prediction.html, title='Prediction', message=message)
+        return render_template('prediction.html', title='Prediction', message=message)
 
             # tweets = User.query.filter(User.name == name).one().tweets
 
