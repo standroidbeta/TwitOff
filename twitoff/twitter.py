@@ -7,11 +7,10 @@ import tweepy
 from decouple import config
 from .models import DB, Tweet, User
 
-
 # https://greatlist.com/happiness/must-follow-twitter-accounts
-TWITTER_USERS = ['calebhicks', 'elonmusk', 'rrherr', 'SteveMartinToGO',
-                 'alyankovic', 'nasa', 'sadserver', 'jkhowland', 'austen',
-                 'common_squirrel', 'KenJennings', 'connanobrien',
+TWITTER_USERS = ['calebhicks', 'elonmusk', 'rrherr', 'SteveMartinToGo',
+                 'nasa', 'sadserver', 'jkhowland', 'austen',
+                 'common_squirrel', 'KenJennings', 'conanobrien',
                  'big_ben_clock', 'IAM_SHAKESPEARE']
 
 TWITTER_AUTH = tweepy.OAuthHandler(config('TWITTER_CONSUMER_KEY'),

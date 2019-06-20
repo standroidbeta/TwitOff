@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/twitoff/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/twitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/twitter.py" afterDir="false" />
-    </list>
+    <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitoff/twitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="975">
               <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
               <folding>
                 <element signature="e#67#82#0" expanded="true" />
@@ -246,12 +243,12 @@
       <workItem from="1560874022221" duration="2965000" />
       <workItem from="1560876998047" duration="835000" />
       <workItem from="1560886666111" duration="28664000" />
-      <workItem from="1560979400688" duration="33864000" />
+      <workItem from="1560979400688" duration="34167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78788000" />
+    <option name="totallyTimeSpent" value="79091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="961" y="0" width="959" height="1079" extended-state="4" />
@@ -382,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitoff/twitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
+        <state relative-caret-position="975">
           <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
           <folding>
             <element signature="e#67#82#0" expanded="true" />
