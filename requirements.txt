@@ -3,7 +3,6 @@ agate-dbf==0.2.1
 agate-excel==0.2.3
 agate-sql==0.5.4
 alabaster==0.7.12
-anaconda-client==1.7.2
 anaconda-navigator==1.9.7
 anaconda-project==0.8.2
 appdirs==1.4.3
