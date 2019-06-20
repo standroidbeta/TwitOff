@@ -64,5 +64,13 @@ dependencies:
   - wheel=0.33.4=py36_0
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=h7b6447c_3
+  - pip:
+    - basilica==0.2.6
+    - oauthlib==3.0.1
+    - pillow==6.0.0
+    - pysocks==1.7.0
+    - python-decouple==3.1
+    - requests-oauthlib==1.2.0
+    - tweepy==3.7.0
 prefix: /home/seek/anaconda3/envs/TwitOff
 
