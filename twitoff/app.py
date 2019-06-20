@@ -57,4 +57,11 @@ def create_app():
 
             # tweets = User.query.filter(User.name == name).one().tweets
 
+    @app.route("/reset")
+    def reset():
+        DB.drop_all()
+        DB.create_all()
+        add_users()
+        return render_template('base.html', title='Reset database!')
+
     return app
