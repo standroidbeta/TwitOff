@@ -47,8 +47,8 @@ def create_app():
         if user1_name == user2_name:
             message = 'Cannot compare since user is the same for both fields!'
         else:
-            prediction = predict_user(user1_name, user2_name, tweet_text)
             tweet_text = request.values['tweet_text']
+            prediction = predict_user(user1_name, user2_name, tweet_text)
             message = '"{}" is more likely to be said by {} than {}.'.format(
                 tweet_text, user1_name if prediction else user2_name, user2_name,
                 user2_name if prediction else user1_name)
