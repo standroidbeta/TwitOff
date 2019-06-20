@@ -136,7 +136,6 @@ numexpr==2.6.9
 numpy==1.16.3
 numpydoc==0.9.1
 oauthlib==3.0.1
-odo==0.5.1
 olefile==0.46
 openpyxl==2.6.2
 packaging==19.0
