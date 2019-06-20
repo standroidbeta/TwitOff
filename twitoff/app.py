@@ -41,15 +41,19 @@ def create_app():
                                tweets=tweets, message=message)
 
     @app.route('/predict', methods=['POST'])
-    def predict():
-        user1_name, user2_name = request.values['user1']
-        user2_name = request.values['user2']
-        tweet_text = request.values['tweet_text']
+    def predict(message=''):
+        user1_name, user2_name = sorted([request.values['user1'],
+                                         request.values['user2']])
         if user1_name == user2_name:
-            return 'Error'
+            message = 'Cannot compare since user is the same for both fields!'
         else:
             prediction = predict_user(user1_name, user2_name, tweet_text)
-            return user1_name if prediction else user2_name
+            tweet_text = request.values['tweet_text']
+            message = '"{}" is more likely to be said by {} than {}.'.format(
+                tweet_text, user1_name if prediction else user2_name, user2_name,
+                user2_name if prediction else user1_name)
+
+        return render_template(prediction.html, title='Prediction', message=message)
 
             # tweets = User.query.filter(User.name == name).one().tweets
 
