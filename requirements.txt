@@ -107,9 +107,6 @@ jupyterlab-server==0.2.0
 kaggle==1.5.3
 keyring==18.0.0
 kiwisolver==1.1.0
-lambdata-alex-witt==0.0.2
-lambdata-higgins2718==0.0.1
-lambdata-standroidbeta==0.2.0
 lazy-object-proxy==1.4.1
 leather==0.3.3
 libarchive-c==2.8
