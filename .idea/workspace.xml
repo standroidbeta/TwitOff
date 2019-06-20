@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TwitOff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwitOff.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/activate.xsh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/activate_this.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/easy_install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/easy_install-3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/easy_install-3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/pip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/pip3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/pip3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/pip3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/python-config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/python3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/python3.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/bin/wheel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/include/python3.6m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deactivate/include/python3.7m" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitoff/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -88,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitoff/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -114,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -245,18 +226,18 @@
       <workItem from="1560874022221" duration="2965000" />
       <workItem from="1560876998047" duration="835000" />
       <workItem from="1560886666111" duration="28664000" />
-      <workItem from="1560979400688" duration="18347000" />
+      <workItem from="1560979400688" duration="20061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63271000" />
+    <option name="totallyTimeSpent" value="64985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47118464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.47118464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +251,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50164294" side_tool="true" weight="0.3940678" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49835706" visible="true" weight="0.5365854" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49835706" visible="true" weight="0.5365854" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,16 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitoff/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#50#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/environment.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7172" />
@@ -324,13 +295,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitoff/Procfile">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitoff/twitter.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -370,6 +334,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitoff/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#50#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
