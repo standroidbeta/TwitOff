@@ -15,7 +15,7 @@
       <label for="bmenub" class="burger pseudo button">Menu</label>
 
       <div class="menu">
-          <a href="/update" class="button warning">Update Tweets</a>
+          <a href="/reset" class="button warning">Update Tweets</a>
       </div>
   </nav>
 
@@ -38,8 +38,8 @@
               <input type="submit" value="Compare Users">
           </form>
           <h3>Recent comparisons:</h3>
-          {% for predict in compariso %}
-          <span class="stack">{{ comparison }}</span>
+          {% for predict in comparison %}
+          <span class="stack">{{ predict }}</span>
           {% endfor %}
       </div>
       <div>
