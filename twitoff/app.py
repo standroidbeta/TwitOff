@@ -4,6 +4,8 @@ Main application and routing for TwitOff
 import os
 from decouple import config
 from flask import Flask, render_template, request
+from sqlalchemy import Column
+
 from .models import DB, User
 from .twitter import add_or_update_user, add_users
 from .predict import predict_user
@@ -14,11 +16,11 @@ def create_app():
      Flask Application"""
 
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['ENV'] = config('ENV')
 
-    DB .init_app(app)
+    DB.init_app(app)
 
     @app.route('/')
     def root():
@@ -36,9 +38,10 @@ def create_app():
             tweets = User.query.filter(User.name == name).one().tweets
         except Exception as e:
             message = "Error adding {}: {}".format(name, e)
-            tweets = []
-        return render_template('user.html', title=name,
-                               tweets=tweets, message=message)
+            return message
+        else:
+            return render_template('user.html', title=name,
+                                   tweets=tweets, message=message)
 
     @app.route('/predict', methods=['POST'])
     def predict(message=''):
