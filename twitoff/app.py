@@ -42,20 +42,27 @@ def create_app():
 
     @app.route('/predict', methods=['POST'])
     def predict(message=''):
-        user1_name, user2_name = sorted([request.values['user1'],
-                                         request.values['user2']])
-        if user1_name == user2_name:
-            message = 'Cannot compare since user is the same for both fields!'
+        user1, user2 = sorted((request.values['user1'],
+                               request.values['user2']))
+        if user1 == user2:
+            message = 'Cannot compare a user the same user in both fields!'
         else:
-            tweet_text = request.values['tweet_text']
-            prediction = predict_user(user1_name, user2_name, tweet_text)
-            message = '"{}" is more likely to be said by {} than {}.'.format(
-                tweet_text, user1_name if prediction else user2_name,
+            comparison = predict_user(user1, user2,
+                                      request.values['tweet_text'])
+            user1_name = comparison.user1_name
+            user2_name = comparison.user2_name
+            user1_prob = comparison.user1_prob
+            user2_prob = comparison.user2_prob
+            prediction = comparison.predicted_user
+            message = '"{}" is more likely to be said by {} than {}'.format(
+                request.values['tweet_text'],
+                user1_name if prediction else user2_name,
                 user2_name if prediction else user1_name)
-
-        return render_template('prediction.html', title='Prediction', message=message)
-
-            # tweets = User.query.filter(User.name == name).one().tweets
+        return render_template('prediction.html', title='Prediction',
+                               message=message,
+                               user1_name=user1_name, user1_prob=user1_prob,
+                               user2_name=user2_name, user2_prob=user2_prob
+                               )
 
     @app.route("/reset")
     def reset():

@@ -28,3 +28,15 @@ class Tweet(DB.Model):
 
     def __repr__(self):
         return '<Tweet {}>'.format(self.text)
+
+
+class Comparison(DB.Model):
+    """Comparison between twitter users and a user generated tweet, and prediction/
+    probabilities for which user is more likely to have tweeted the tweet"""
+    id = DB.Column(DB.Integer, primary_key=True, autoincrement=True)
+    text = DB.Column(DB.Unicode(300))
+    predicted_user = DB.Column(DB.String(15), nullable=False)
+    user1_name = DB.Column(DB.String(15), nullable=False)
+    user2_name = DB.Column(DB.String(15), nullable=False)
+    user1_prob = DB.Column(DB.Float, nullable=False)
+    user2_prob = DB.Column(DB.Float, nullable=False)
