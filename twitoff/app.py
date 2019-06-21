@@ -7,7 +7,7 @@ from flask import Flask, render_template, request
 from sqlalchemy import Column
 
 from .models import DB, User
-from .twitter import add_or_update_user, add_users
+from .twitter import add_or_update_user, add_users, update_all_users
 from .predict import predict_user
 
 
@@ -25,8 +25,12 @@ def create_app():
 
     @app.route('/')
     def root():
-        users = User.query.all()
-        return render_template('base.html', title='Home', users=users)
+        return render_template('base.html', title='Home', users=User.query.all())
+
+    @app.route('/update')
+    def update():
+        update_all_users()
+        return render_template('base.html', title='Update all users!', users=User.query.all())
 
     @app.route('/user', methods=['POST'])
     @app.route('/user/<name>', methods=['GET'])

@@ -18,7 +18,7 @@ def predict_user(user1_name, user2_name, tweet_text):
     embeddings = np.vstack([user1_embeddings, user2_embeddings])
     labels = np.concatenate([np.ones(len(user1.tweets)),
                              np.zeros(len(user2.tweets))])
-    log_reg = LogisticRegression().fit(embeddings, labels)
+    log_reg = LogisticRegression(solver='lbfgs', max_iter=1000).fit(embeddings, labels)
     tweet_embedding = BASILICA.embed_sentence(tweet_text, model='twitter')
     prediction = log_reg.predict(np.array(tweet_embedding).reshape(1, -1))[0]
     predicted_user = user1_name if prediction == 1 else user2_name
