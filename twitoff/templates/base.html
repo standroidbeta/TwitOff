@@ -16,7 +16,7 @@
 
       <div class="menu">
           <a href="/update" class="button warning">Update Tweets</a>
-          <!-- a href="/reset" class="button warning">Update Tweets</a> -->
+          <a href="/reset" class="button warning">Update Tweets</a>
       </div>
   </nav>
 
@@ -39,7 +39,7 @@
               <input type="submit" value="Compare Users">
           </form>
           <h3>Recent comparisons:</h3>
-          {% for comparison in comparison %}
+          {% for comparison in comparisons %}
           <span class="stack">{{ comparison }}</span>
           {% endfor %}
       </div>
