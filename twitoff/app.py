@@ -17,7 +17,7 @@ def create_app():
 
     app = Flask(__name__)
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE')
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('HEROKU_POSTGRESQL_COPPER_URL')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['ENV'] = config('ENV')
 
