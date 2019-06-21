@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="more updates">
       <change beforePath="$PROJECT_DIR$/twitoff/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/templates/user.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitoff/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="165">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="e#49#55#0" expanded="true" />
               </folding>
@@ -36,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitoff/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="183">
               <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
               <folding>
                 <element signature="e#52#70#0" expanded="true" />
@@ -69,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitoff/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="255">
               <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -146,12 +143,12 @@
         <option value="$PROJECT_DIR$/twitoff/templates/prediction.html" />
         <option value="$PROJECT_DIR$/twitoff/templates/user.html" />
         <option value="$PROJECT_DIR$/twitoff/predict.py" />
-        <option value="$PROJECT_DIR$/twitoff/app.py" />
         <option value="$PROJECT_DIR$/twitoff/templates/base.html" />
+        <option value="$PROJECT_DIR$/twitoff/app.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="961" />
     <option name="width" value="959" />
     <option name="height" value="1079" />
@@ -252,15 +249,15 @@
       <workItem from="1560874022221" duration="2965000" />
       <workItem from="1560876998047" duration="835000" />
       <workItem from="1560886666111" duration="28664000" />
-      <workItem from="1560979400688" duration="54161000" />
+      <workItem from="1560979400688" duration="54408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99085000" />
+    <option name="totallyTimeSpent" value="99332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1079" extended-state="4" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6360726" />
@@ -277,7 +274,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50213444" side_tool="true" weight="0.59597033" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49786553" weight="0.596603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49786553" visible="true" weight="0.59597033" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,12 +363,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitoff/app.py">
+    <entry file="file://$PROJECT_DIR$/twitoff/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="183">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding>
-            <element signature="e#49#55#0" expanded="true" />
+            <element signature="e#52#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,7 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitoff/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="255">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -393,12 +390,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitoff/predict.py">
+    <entry file="file://$PROJECT_DIR$/twitoff/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        <state relative-caret-position="165">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
-            <element signature="e#52#70#0" expanded="true" />
+            <element signature="e#49#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
