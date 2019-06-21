@@ -38,8 +38,8 @@
               <input type="submit" value="Compare Users">
           </form>
           <h3>Recent comparisons:</h3>
-          {% for predict in comparison %}
-          <span class="stack">{{ predict }}</span>
+          {% for comparison in comparison %}
+          <span class="stack">{{ comparison }}</span>
           {% endfor %}
       </div>
       <div>
