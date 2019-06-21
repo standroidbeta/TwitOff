@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="more updates">
-      <change beforePath="$PROJECT_DIR$/twitoff/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="more updates" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitoff/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+            <state relative-caret-position="210">
+              <caret line="41" column="32" selection-start-line="40" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -249,16 +247,15 @@
       <workItem from="1560874022221" duration="2965000" />
       <workItem from="1560876998047" duration="835000" />
       <workItem from="1560886666111" duration="28664000" />
-      <workItem from="1560979400688" duration="55031000" />
+      <workItem from="1560979400688" duration="55355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99955000" />
+    <option name="totallyTimeSpent" value="100279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1080" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6360726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -392,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitoff/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        <state relative-caret-position="210">
+          <caret line="41" column="32" selection-start-line="40" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
