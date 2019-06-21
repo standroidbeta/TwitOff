@@ -137,12 +137,12 @@
         <option value="$PROJECT_DIR$/environment.yml" />
         <option value="$PROJECT_DIR$/twitoff/twitter.py" />
         <option value="$PROJECT_DIR$/twitoff/models.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/twitoff/templates/prediction.html" />
         <option value="$PROJECT_DIR$/twitoff/templates/user.html" />
         <option value="$PROJECT_DIR$/twitoff/predict.py" />
         <option value="$PROJECT_DIR$/twitoff/app.py" />
         <option value="$PROJECT_DIR$/twitoff/templates/base.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -247,12 +247,12 @@
       <workItem from="1560874022221" duration="2965000" />
       <workItem from="1560876998047" duration="835000" />
       <workItem from="1560886666111" duration="28664000" />
-      <workItem from="1560979400688" duration="58678000" />
+      <workItem from="1560979400688" duration="58929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103602000" />
+    <option name="totallyTimeSpent" value="103853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1080" extended-state="7" />
