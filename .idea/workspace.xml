@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="more updates">
-      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,7 +178,7 @@
       <workItem from="1582575415103" duration="4817000" />
       <workItem from="1582580255471" duration="1671000" />
       <workItem from="1582583041053" duration="37000" />
-      <workItem from="1582583086108" duration="11023000" />
+      <workItem from="1582583086108" duration="13193000" />
     </task>
     <servers />
   </component>
@@ -191,18 +193,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" width="814" height="729" key="#Intentions/0.0.1536.864@0.0.1536.864" timestamp="1582598873584" />
-    <state x="543" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582601300336">
+    <state x="543" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582643693197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="543" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582601300336" />
+    <state x="543" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582643693197" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1582583513468">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582583513468" />
-    <state x="277" y="74" key="SettingsEditor" timestamp="1582598763372">
+    <state x="277" y="74" key="SettingsEditor" timestamp="1582645025523">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582598763372" />
+    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582645025523" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1582600489450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
