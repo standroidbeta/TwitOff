@@ -2,8 +2,8 @@
 
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from .models import User, Comparison, DB
-from .twitter import BASILICA
+from models import User, Comparison, DB
+from twitter import BASILICA
 
 
 def predict_user(user1_name, user2_name, tweet_text):
@@ -24,8 +24,8 @@ def predict_user(user1_name, user2_name, tweet_text):
     predicted_user = user1_name if prediction == 1 else user2_name
     pred_proba = log_reg.predict_proba(
         np.array(tweet_embedding).reshape(1, -1))[0]
-    user1_prob = pred_proba[1]
-    user2_prob = pred_proba[0]
+    user1_prob = pred_proba[0]
+    user2_prob = pred_proba[1]
     db_comparison = Comparison(text=tweet_text, predicted_user=predicted_user,
                                user1_name=user1_name, user2_name=user2_name,
                                user1_prob=user1_prob, user2_prob=user2_prob)
