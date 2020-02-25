@@ -1,3 +1,4 @@
+scikit-learn
 anyjson==0.3.3
 argon2-cffi==19.1.0
 arrow==0.13.1

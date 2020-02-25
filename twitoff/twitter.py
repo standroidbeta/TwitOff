@@ -5,7 +5,7 @@ Retrieve tweets, embeddings, and persist in the database.
 import basilica
 import tweepy
 from decouple import config
-from models import DB, Tweet, User
+from .models import DB, Tweet, User
 
 # https://greatlist.com/happiness/must-follow-twitter-accounts
 TWITTER_USERS = ['calebhicks', 'elonmusk', 'rrherr', 'SteveMartinToGo',
