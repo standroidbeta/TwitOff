@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="more updates">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -63,6 +65,9 @@
       <module name="TwitOff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitoff" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -104,6 +109,9 @@
       <module name="TwitOff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitoff" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -123,6 +131,9 @@
       <module name="TwitOff" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitoff" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -176,7 +187,8 @@
       <workItem from="1582575415103" duration="4817000" />
       <workItem from="1582580255471" duration="1671000" />
       <workItem from="1582583041053" duration="37000" />
-      <workItem from="1582583086108" duration="14537000" />
+      <workItem from="1582583086108" duration="15684000" />
+      <workItem from="1582648614952" duration="95000" />
     </task>
     <servers />
   </component>
@@ -195,6 +207,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="543" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582643693197" />
+    <state x="449" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582648591564">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1582648591564" />
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1582648929297">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1582648929297" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1582583513468">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -211,5 +231,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="524" y="276" key="cloudConfig.SelfSettingsDialog/0.0.1536.864@0.0.1536.864" timestamp="1582576764789" />
+    <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582648866663">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1582648866663" />
   </component>
 </project>
