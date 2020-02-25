@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="more updates">
-      <change afterPath="$PROJECT_DIR$/set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TwitOff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwitOff.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitoff/twitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/twitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitoff/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +176,7 @@
       <workItem from="1582575415103" duration="4817000" />
       <workItem from="1582580255471" duration="1671000" />
       <workItem from="1582583041053" duration="37000" />
-      <workItem from="1582583086108" duration="9920000" />
+      <workItem from="1582583086108" duration="10714000" />
     </task>
     <servers />
   </component>
