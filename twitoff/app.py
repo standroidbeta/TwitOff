@@ -79,4 +79,4 @@ def create_app():
         add_users()
         return render_template('base.html', title='Reset database!')
 
-    return  # app
+    return app
