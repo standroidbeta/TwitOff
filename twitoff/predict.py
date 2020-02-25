@@ -1,4 +1,5 @@
 """Prediction of user based on tweet embeddings"""
+import pickle
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from .models import User, Comparison, DB
@@ -30,4 +31,4 @@ def predict_user(user1_name, user2_name, tweet_text):
                                user1_prob=user1_prob, user2_prob=user2_prob)
     DB.session.add(db_comparison)
     DB.session.commit()
-    return log_reg.predict(np.array(tweet_embedding).reshape(1, -1))
+    return db_comparison
