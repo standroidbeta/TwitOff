@@ -1,5 +1,4 @@
 """Prediction of user based on tweet embeddings"""
-import pickle
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from .models import User, Comparison, DB

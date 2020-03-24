@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0bf104-2f73-468d-80e8-2fea4116a184" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitoff/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitoff/predict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +192,9 @@
       <workItem from="1582583041053" duration="37000" />
       <workItem from="1582583086108" duration="15684000" />
       <workItem from="1582648614952" duration="95000" />
-      <workItem from="1582648725039" duration="8223000" />
+      <workItem from="1582648725039" duration="8925000" />
+      <workItem from="1582723399883" duration="25000" />
+      <workItem from="1585091366477" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="more updates">
       <created>1582648929787</created>
@@ -250,14 +256,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1582653067091" />
-    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1582583513468">
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1582723422136">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582583513468" />
-    <state x="277" y="74" key="SettingsEditor" timestamp="1582645025523">
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582723422136" />
+    <state x="277" y="74" key="SettingsEditor" timestamp="1585093348078">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582645025523" />
+    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585093348078" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1582600489450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
